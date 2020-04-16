@@ -3,9 +3,10 @@ package com.example.selenium;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SeleniumBrowserTest {
+public class SeleniumBrowser {
 	public static void main(String[] arg) {
 		// Instantiate a ChromeDriver class.
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\kenti\\Documents\\dev\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		// Storing the Application Url in the String variable
